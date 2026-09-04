@@ -35,7 +35,7 @@ const gallery = [
 
 const PhotoGallery = () => {
   return (
-    <section className="bg-white px-6 py-32 text-black md:px-12 lg:px-20">
+    <section id="photo-gallery" className="bg-white px-6 py-32 text-black md:px-12 lg:px-20">
 
       {/* HEADER */}
       <div className="mx-auto mb-24 max-w-[1400px]">
@@ -125,7 +125,7 @@ const PhotoGallery = () => {
 
 
         <a
-          href="#"
+          href="https://www.instagram.com/hammoudi_barber_shop/"
           className="
             group
             relative

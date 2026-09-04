@@ -16,7 +16,7 @@ const services = [
 
 const WhoareWe = () => {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div id="whoarewe" className="min-h-screen bg-white text-black">
       <style>{`
         @keyframes marquee {
           0% { transform: translateX(0); }

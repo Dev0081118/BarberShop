@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-black text-white">
@@ -61,17 +59,17 @@ const Footer = () => {
               </a>
 
               <a
-                href="#about"
+                href="#whoarewe"
                 className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
               >
                 About
               </a>
 
               <a
-                href="#contact"
+                href="#photo-gallery"
                 className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
               >
-                Contact
+                Photo Gallery
               </a>
 
             </nav>
@@ -89,16 +87,16 @@ const Footer = () => {
             <div className="space-y-5 text-sm text-neutral-300">
 
               <p>
-                123 Barber Street
+                188 Adelaide Terrace
                 <br />
-                Perth, WA 6000
+                Perth WA 6004, Australia
               </p>
 
               <a
                 href="tel:+61425780603"
                 className="block w-fit transition-colors duration-300 hover:text-[#c96b3c]"
               >
-                +61 425 780 603
+                +61 416 917 772
               </a>
 
               <a
@@ -190,21 +188,21 @@ const Footer = () => {
           <div className="flex gap-8">
 
             <a
-              href="#"
+              href="https://www.instagram.com/hammoudi_barber_shop/"
               className="transition-colors duration-300 hover:text-white"
             >
               Instagram
             </a>
 
             <a
-              href="#"
+              href="https://www.facebook.com/p/Hammoudi-barber-shop-100063867472962"
               className="transition-colors duration-300 hover:text-white"
             >
               Facebook
             </a>
 
             <a
-              href="#"
+              href="/privacy"
               className="transition-colors duration-300 hover:text-white"
             >
               Privacy

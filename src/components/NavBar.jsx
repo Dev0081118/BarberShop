@@ -13,12 +13,14 @@ const NavBar = () => {
 
           {/* Navbar actions */}
           <div className="flex items-center gap-6 md:gap-10 mr-7 text-white">
-            <a
-              href="#service"
-              className="hidden font-helvetica sm:inline text-base md:text-lg font-medium hover:text-amber-400 transition-colors hover:underline hover:underline-offset-4 hover:decoration-amber-400"
-            >
-              SERVICES
-            </a>
+           
+              <a
+                href="#services"
+                className="hidden font-helvetica sm:inline text-base md:text-lg font-medium  hover:text-amber-400 transition-colors hover:underline hover:underline-offset-4 hover:decoration-amber-400"
+              >
+                SERVICES
+              </a>
+           
 
             <a
               href="tel:0416917772"

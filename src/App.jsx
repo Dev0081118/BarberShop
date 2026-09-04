@@ -9,20 +9,15 @@ import Footer from './components/Footer'
 import MeetTheTeam from './pages/MeetTheTeam'
 import Review from './pages/reviews'
 import PhotoGallery from './pages/PhotoGallary'
+import {Routes, Route} from 'react-router-dom'
+import Privacy from './pages/privacy'
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Hero />
-      <WhoareWe />
-      <ScrollWindow />
-      <Services />
-      <Packages />
-      <MeetTheTeam />
-      <Review />
-      <PhotoGallery />
-      <Footer />
-      
+      <Routes>
+        <Route path="/" element={<><NavBar /><Hero /><WhoareWe /><ScrollWindow /><Services /><Packages /><MeetTheTeam /><Review /><PhotoGallery /><Footer /></>} />
+        <Route path="/privacy" element={<><Privacy /></>} />
+      </Routes>
     </div>
   )
 }

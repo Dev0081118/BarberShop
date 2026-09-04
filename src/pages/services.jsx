@@ -65,7 +65,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="min-h-[2000px] bg-black text-white">
+    <section id="services" className="min-h-[2000px] bg-black text-white">
 
       {/* INTRO */}
       <div className="mx-auto flex min-h-[550px] w-[90%] max-w-[1400px] flex-col justify-center">

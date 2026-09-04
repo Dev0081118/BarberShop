@@ -4,6 +4,7 @@ import heroImage from '../assets/hero2.png'
 const Hero = () => {
   return (
     <div
+      id="home"
       className="relative h-screen bg-cover bg-center"
       style={{ backgroundImage: `url(${heroImage})` }}
     >

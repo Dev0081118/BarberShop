@@ -37,7 +37,7 @@ const packages = [
 
 const Packages = () => {
   return (
-    <section className="min-h-screen bg-white px-6 py-32 text-black md:px-12 lg:px-20">
+    <section id="packages" className="min-h-screen bg-white px-6 py-32 text-black md:px-12 lg:px-20">
 
       {/* HEADER */}
       <div className="mx-auto mb-24 max-w-[1400px]">
