@@ -5,6 +5,10 @@ import WhoareWe from './pages/WhoareWe'
 import ScrollWindow from './pages/ScrollWindow'
 import Services from './pages/services'
 import Packages from './pages/packeges'
+import Footer from './components/Footer'
+import MeetTheTeam from './pages/MeetTheTeam'
+import Review from './pages/reviews'
+import PhotoGallery from './pages/PhotoGallary'
 const App = () => {
   return (
     <div>
@@ -14,6 +18,11 @@ const App = () => {
       <ScrollWindow />
       <Services />
       <Packages />
+      <MeetTheTeam />
+      <Review />
+      <PhotoGallery />
+      <Footer />
+      
     </div>
   )
 }
