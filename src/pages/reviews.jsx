@@ -235,7 +235,6 @@ const Review = () => {
         </div>
 
       </div>
-
     </section>
   );
 };

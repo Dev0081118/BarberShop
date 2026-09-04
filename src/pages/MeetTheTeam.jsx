@@ -6,28 +6,28 @@ const team = [
     name: "Joshua Lawrence",
     role: "Master Barber",
     image:
-      "/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg",
+      "public/Team/emp5.png",
   },
   {
     id: "02",
     name: "Marcus Miller",
     role: "Senior Barber",
     image:
-      "/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg",
+      "public/Team/emp1.png",
   },
   {
     id: "03",
     name: "Daniel Smith",
     role: "Barber & Stylist",
     image:
-      "/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg",
+      "public/Team/emp2.png",
   },
   {
     id: "04",
     name: "Ryan Wilson",
     role: "Senior Stylist",
     image:
-      "/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg",
+      "public/Team/emp4.png",
   },
 ];
 

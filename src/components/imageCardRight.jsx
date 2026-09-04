@@ -9,18 +9,17 @@ const ImageCardRight = () => {
         
         <div className="w-[70%]">
           <p className="mb-5 text-sm font-semibold uppercase tracking-wide">
-            Hammoudi Barber Shop
+            Where tradition meets modern style
           </p>
 
           <h1 className="text-5xl leading-tight">
-            Experience the art of
+            Crafted with precision.
             <br />
-            traditional barbering
+            Defined by style.
           </h1>
 
           <p className="mt-8 text-lg leading-relaxed">
-            Premium grooming, timeless style and a relaxing atmosphere.
-            Discover an experience designed around you.
+            Premium grooming, timeless style and a relaxing atmosphere. From precision cuts to traditional shaves, every service is crafted with attention to detail and tailored to you.
           </p>
 
           <button
