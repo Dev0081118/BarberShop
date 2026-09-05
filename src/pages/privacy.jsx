@@ -7,7 +7,7 @@ const Privacy = () => {
       <section className="border-b border-neutral-200 px-6 py-24 md:px-12 lg:px-20">
         <div className="mx-auto max-w-[1200px]">
             {/* BACK BUTTON */} 
-            <a href="/" className="mb-20 inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500 transition-colors duration-300 hover:text-black" ><span className="text-lg leading-none">←</span> Back to Website</a>
+            <a href="/" className="mb-20 inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500 transition-colors duration-300 hover:text-black active:text-black" ><span className="text-lg leading-none">←</span> Back to Website</a>
 
           <p className="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-neutral-500">
             Hammoudi Barber Shop

@@ -112,6 +112,7 @@ const Review = () => {
                 transition-colors
                 duration-500
                 hover:bg-neutral-50
+                active:bg-neutral-50
                 md:p-12
                 ${index % 2 === 0 ? "md:border-r" : ""}
               `}
@@ -215,6 +216,7 @@ const Review = () => {
                 duration-500
                 ease-out
                 group-hover:scale-x-100
+                group-active:scale-x-100
               "
             />
 
@@ -225,6 +227,7 @@ const Review = () => {
                 transition-colors
                 duration-500
                 group-hover:text-white
+                group-active:text-white
               "
             >
               Review us on Google →

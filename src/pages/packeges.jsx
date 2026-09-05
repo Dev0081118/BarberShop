@@ -83,6 +83,7 @@ const Packages = () => {
                 transition-all
                 duration-500
                 hover:-translate-y-2
+                active:-translate-y-2
             "
             >
 
@@ -102,6 +103,8 @@ const Packages = () => {
                   ease-out
                   group-hover:scale-105
                   group-hover:grayscale-0
+                  group-active:scale-105
+                  group-active:grayscale-0
                 "
               />
 
@@ -215,6 +218,7 @@ const Packages = () => {
                         duration-500
                         ease-out
                         group-hover/button:scale-x-100
+                        group-active/button:scale-x-100
                     "
                     />
 
@@ -225,6 +229,7 @@ const Packages = () => {
                         transition-colors
                         duration-500
                         group-hover/button:text-black
+                        group-active/button:text-black
                     "
                     >
                     Book {pkg.name} Package

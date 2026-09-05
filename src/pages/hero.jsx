@@ -119,6 +119,7 @@ const Hero = () => {
                   duration-500
                   ease-out
                   group-hover:scale-x-100
+                  group-active:scale-x-100
                 "
               />
 
@@ -129,6 +130,7 @@ const Hero = () => {
                   transition-colors
                   duration-500
                   group-hover:text-black
+                  group-active:text-black
                 "
               >
                 Book an appointment →

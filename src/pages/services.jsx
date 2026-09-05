@@ -133,12 +133,13 @@ const Services = () => {
                 transition-all
                 duration-500
                 hover:border-neutral-500
+                active:border-neutral-500
               "
             >
 
               {/* NUMBER */}
               <div className="col-span-2 self-start">
-                <span className="text-sm text-neutral-600 transition-colors duration-500 group-hover:text-[#c96b3c]">
+                <span className="text-sm text-neutral-600 transition-colors duration-500 group-hover:text-[#c96b3c] group-active:text-[#c96b3c]">
                   {service.number}
                 </span>
               </div>
@@ -155,13 +156,14 @@ const Services = () => {
                     transition-transform
                     duration-500
                     group-hover:translate-x-3
+                    group-active:translate-x-3
                     md:text-5xl
                   "
                 >
                   {service.name}
                 </h3>
 
-                <p className="mt-4 max-w-[500px] text-sm leading-6 text-neutral-500 transition-colors duration-500 group-hover:text-neutral-300">
+                <p className="mt-4 max-w-[500px] text-sm leading-6 text-neutral-500 transition-colors duration-500 group-hover:text-neutral-300 group-active:text-neutral-300">
                   {service.description}
                 </p>
 
@@ -187,6 +189,7 @@ const Services = () => {
                       transition-transform
                       duration-500
                       group-hover:translate-x-0
+                      group-active:translate-x-0
                     "
                   >
                     Book →
@@ -245,10 +248,11 @@ const Services = () => {
               duration-500
               ease-out
               group-hover:scale-x-100
+              group-active:scale-x-100
             "
           />
 
-          <span className="relative z-10 transition-colors duration-500 group-hover:text-black">
+          <span className="relative z-10 transition-colors duration-500 group-hover:text-black group-active:text-black">
             Book Appointment
           </span>
         </button>

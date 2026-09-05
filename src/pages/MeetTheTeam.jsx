@@ -98,6 +98,8 @@ const MeetTheTeam = () => {
                     ease-out
                     group-hover:scale-105
                     group-hover:grayscale-0
+                    group-active:scale-105
+                    group-active:grayscale-0
                   "
                 />
 
@@ -143,6 +145,9 @@ const MeetTheTeam = () => {
                     group-hover:border-[#c96b3c]
                     group-hover:bg-[#c96b3c]
                     group-hover:text-white
+                    group-active:border-[#c96b3c]
+                    group-active:bg-[#c96b3c]
+                    group-active:text-white
                   "
                 >
                   →

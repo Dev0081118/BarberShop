@@ -45,6 +45,7 @@ const NavBar = () => {
               transition-colors
               duration-300
               hover:text-white
+              active:text-white
               sm:block
             "
           >
@@ -65,6 +66,7 @@ const NavBar = () => {
               transition-colors
               duration-300
               hover:text-white
+              active:text-white
               md:block
             "
           >
@@ -85,6 +87,7 @@ const NavBar = () => {
               transition-colors
               duration-300
               hover:text-white
+              active:text-white
               lg:block
             "
           >
@@ -127,6 +130,7 @@ const NavBar = () => {
                 duration-500
                 ease-out
                 group-hover:scale-x-100
+                group-active:scale-x-100
               "
             />
 
@@ -137,6 +141,7 @@ const NavBar = () => {
                 transition-colors
                 duration-500
                 group-hover:text-black
+                group-active:text-black
               "
             >
               Book Now

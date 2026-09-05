@@ -39,35 +39,35 @@ const Footer = () => {
 
               <a
                 href="#home"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 Home
               </a>
 
               <a
                 href="#services"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 Services
               </a>
 
               <a
                 href="#packages"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 Packages
               </a>
 
               <a
                 href="#whoarewe"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 About
               </a>
 
               <a
                 href="#photo-gallery"
-                className="w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 Photo Gallery
               </a>
@@ -94,14 +94,14 @@ const Footer = () => {
 
               <a
                 href="tel:+61425780603"
-                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 +61 416 917 772
               </a>
 
               <a
                 href="mailto:hello@hammoudibarber.com"
-                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c]"
+                className="block w-fit transition-colors duration-300 hover:text-[#c96b3c] active:text-[#c96b3c]"
               >
                 hello@hammoudibarber.com
               </a>
@@ -156,6 +156,7 @@ const Footer = () => {
                   duration-500
                   ease-out
                   group-hover:scale-x-100
+                  group-active:scale-x-100
                 "
               />
 
@@ -166,6 +167,7 @@ const Footer = () => {
                   transition-colors
                   duration-500
                   group-hover:text-black
+                  group-active:text-black
                 "
               >
                 Book Appointment
@@ -189,21 +191,21 @@ const Footer = () => {
 
             <a
               href="https://www.instagram.com/hammoudi_barber_shop/"
-              className="transition-colors duration-300 hover:text-white"
+              className="transition-colors duration-300 hover:text-white active:text-white"
             >
               Instagram
             </a>
 
             <a
               href="https://www.facebook.com/p/Hammoudi-barber-shop-100063867472962"
-              className="transition-colors duration-300 hover:text-white"
+              className="transition-colors duration-300 hover:text-white active:text-white"
             >
               Facebook
             </a>
 
             <a
               href="/privacy"
-              className="transition-colors duration-300 hover:text-white"
+              className="transition-colors duration-300 hover:text-white active:text-white"
             >
               Privacy
             </a>

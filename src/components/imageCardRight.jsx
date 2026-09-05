@@ -46,7 +46,9 @@ const ImageCardRight = () => {
                 before:duration-300
                 before:ease-in-out
                 hover:before:scale-x-100
+                active:before:scale-x-100
                 hover:text-white
+                active:text-white
             "
         >
   <span className="relative z-10 transition-colors duration-300">

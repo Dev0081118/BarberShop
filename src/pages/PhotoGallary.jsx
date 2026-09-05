@@ -153,6 +153,7 @@ const PhotoGallery = () => {
               duration-500
               ease-out
               group-hover:scale-x-100
+              group-active:scale-x-100
             "
           />
 
@@ -163,6 +164,7 @@ const PhotoGallery = () => {
               transition-colors
               duration-500
               group-hover:text-white
+              group-active:text-white
             "
           >
             Instagram →
@@ -205,6 +207,7 @@ const GalleryImage = ({ item, className }) => {
           duration-700
           ease-out
           group-hover:scale-105
+          group-active:scale-105
         "
       />
 
@@ -217,6 +220,7 @@ const GalleryImage = ({ item, className }) => {
           transition-all
           duration-500
           group-hover:bg-black/30
+          group-active:bg-black/30
         "
       />
 
@@ -234,6 +238,7 @@ const GalleryImage = ({ item, className }) => {
           transition-all
           duration-500
           group-hover:opacity-100
+          group-active:opacity-100
         "
       >
 
