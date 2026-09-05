@@ -3,11 +3,11 @@ import joshuaImage from "../../public/scrollwindow/trimmer.avif";
 import secondImage from "../../public/scrollwindow/setting.avif";
 const ImageCardRight = () => {
   return (
-     <div className="relative flex w-full flex-col overflow-hidden md:h-screen md:flex-row">
+     <div className="relative flex w-full  flex-col overflow-hidden md:h-screen md:flex-row">
     {/* RIGHT SIDE */}
-      <div className="flex w-full items-center justify-center bg-white px-5 py-14 order-2 md:h-full md:w-1/2 md:px-0 md:py-0 md:order-none">
+      <div className="flex h-screen w-full p-5 items-center justify-center bg-white py-14 order-2 md:h-full md:w-1/2 md:px-0 md:py-0 md:order-none">
         
-        <div className="w-full max-w-md md:w-[70%] md:max-w-none">
+        <div className="w-full md:w-[70%] md:max-w-none">
           <p className="mb-5 text-sm font-semibold uppercase tracking-wide">
             Where tradition meets modern style
           </p>
@@ -59,7 +59,7 @@ const ImageCardRight = () => {
       </div>
 
         {/* LEFT SIDE */}
-        <div className="relative h-[55vh] w-full order-1 md:h-full md:w-1/2 md:order-none">
+        <div className="relative h-screen w-full order-1 md:h-full md:w-1/2 md:order-none">
         
         {/* Background Image */}
         <div
