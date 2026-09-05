@@ -2,10 +2,10 @@ import joshuaImage from "../../public/scrollwindow/joshua-lawrence-dU6eE_j2My8-u
 import secondImage from "../../public/scrollwindow/photo-1599351431202-1e0f0137899a.avif";
 const ImgeCardLeft = () => {
   return (
-    <div className="relative flex h-screen mb-45 w-full overflow-hidden">
+    <div className="relative flex mb-45 w-full flex-col overflow-hidden md:h-screen md:flex-row">
       
       {/* LEFT SIDE */}
-      <div className="relative h-full w-1/2">
+      <div className="relative h-[55vh] w-full md:h-full md:w-1/2">
         
         {/* Background Image */}
         <div
@@ -27,20 +27,20 @@ const ImgeCardLeft = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="flex h-full w-1/2 items-center justify-center bg-white">
+      <div className="flex w-full items-center justify-center bg-white px-5 py-14 md:h-full md:w-1/2 md:px-0 md:py-0">
         
-        <div className="w-[70%]">
+        <div className="w-full max-w-md md:w-[70%] md:max-w-none">
           <p className="mb-5 text-sm font-semibold uppercase tracking-wide">
             Hammoudi Barber Shop
           </p>
 
-          <h1 className="text-5xl leading-tight">
+          <h1 className="text-4xl leading-tight md:text-5xl">
             Experience the art of
             <br />
             traditional barbering
           </h1>
 
-          <p className="mt-8 text-lg leading-relaxed">
+          <p className="mt-8 text-base leading-relaxed md:text-lg">
             Premium grooming, timeless style and a relaxing atmosphere.
             Discover an experience designed around you.
           </p>
@@ -49,12 +49,14 @@ const ImgeCardLeft = () => {
             className="
                 relative
                 mt-8
+                w-full
                 overflow-hidden
                 border-2 border-black
                 bg-white
                 px-6 py-4
                 text-sm font-semibold
                 text-black
+                md:w-fit
 
                 before:absolute
                 before:inset-y-0
