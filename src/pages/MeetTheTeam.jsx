@@ -6,28 +6,28 @@ const team = [
     name: "Joshua Lawrence",
     role: "Master Barber",
     image:
-      "public/Team/emp5.png",
+      "src/assets/Team/emp1.png",
   },
   {
     id: "02",
     name: "Marcus Miller",
     role: "Senior Barber",
     image:
-      "public/Team/emp1.png",
+      "src/assets/Team/emp1.png",
   },
   {
     id: "03",
     name: "Daniel Smith",
     role: "Barber & Stylist",
     image:
-      "public/Team/emp2.png",
+      "src/assets/Team/emp2.png",
   },
   {
     id: "04",
     name: "Ryan Wilson",
     role: "Senior Stylist",
     image:
-      "public/Team/emp4.png",
+      "src/assets/Team/emp4.png",
   },
 ];
 
