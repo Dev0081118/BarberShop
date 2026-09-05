@@ -1,87 +1,196 @@
+import React from "react";
 import joshuaImage from "../../public/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg";
 import secondImage from "../../public/scrollwindow/photo-1599351431202-1e0f0137899a.avif";
+
 const ImgeCardLeft = () => {
   return (
-    <div className="relative flex h-screen mb-45 w-full overflow-hidden">
-      
-      {/* LEFT SIDE */}
-      <div className="relative h-full w-1/2">
-        
-        {/* Background Image */}
+    <section className="w-full mb-40 overflow-hidden bg-white">
+
+      <div className="flex w-full flex-col md:min-h-screen md:flex-row">
+
+        {/* IMAGE */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(${joshuaImage})`,
-          }}
-        />
-
-        {/* Small Image on top */}
-        <div className="absolute top-1/2 right-[15%] -translate-y-1/2 w-[45%] h-[55%]">
-          <img
-            src={secondImage}
-            alt="Barber shop"
-            className="h-full w-full object-cover"
-          />
-        </div>
-
-      </div>
-
-      {/* RIGHT SIDE */}
-      <div className="flex h-full w-1/2 items-center justify-center bg-white">
-        
-        <div className="w-[70%]">
-          <p className="mb-5 text-sm font-semibold uppercase tracking-wide">
-            Hammoudi Barber Shop
-          </p>
-
-          <h1 className="text-5xl leading-tight">
-            Experience the art of
-            <br />
-            traditional barbering
-          </h1>
-
-          <p className="mt-8 text-lg leading-relaxed">
-            Premium grooming, timeless style and a relaxing atmosphere.
-            Discover an experience designed around you.
-          </p>
-
-          <button
-            className="
-                relative
-                mt-8
-                overflow-hidden
-                border-2 border-black
-                bg-white
-                px-6 py-4
-                text-sm font-semibold
-                text-black
-
-                before:absolute
-                before:inset-y-0
-                before:left-0
-                before:w-full
-                before:origin-left
-                before:scale-x-0
-                before:bg-black
-                before:transition-transform
-                before:duration-300
-                before:ease-in-out
-                hover:before:scale-x-100
-                hover:text-white
-            "
+          className="
+            relative
+            h-[62vh]
+            min-h-[420px]
+            w-full
+            md:h-screen
+            md:w-1/2
+          "
         >
-  <span className="relative z-10 transition-colors duration-300">
-    Book an appointment
-  </span>
-</button>
-          
+          {/* Main image */}
+          <img
+            src={joshuaImage}
+            alt="Hammoudi Barber Shop"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+
+          {/* Secondary image */}
+          <div
+            className="
+              absolute
+              bottom-[8%]
+              right-[7%]
+              h-[240px]
+              w-[165px]
+              sm:h-[280px]
+              sm:w-[190px]
+
+              md:bottom-auto
+              md:right-[15%]
+              md:top-1/2
+              md:h-[55%]
+              md:w-[45%]
+              md:-translate-y-1/2
+            "
+          >
+            <img
+              src={secondImage}
+              alt="Barber grooming"
+              className="h-full w-full object-cover"
+            />
+          </div>
         </div>
-          
+
+
+        {/* CONTENT */}
+        <div
+          className="
+            flex
+            w-full
+            items-center
+            bg-white
+            px-7
+            py-20
+
+            sm:px-10
+            sm:py-24
+
+            md:h-screen
+            md:w-1/2
+            md:justify-center
+            md:px-10
+            md:py-0
+          "
+        >
+          <div
+            className="
+              w-full
+              md:w-[70%]
+              md:max-w-[600px]
+            "
+          >
+
+            {/* Eyebrow */}
+            <p
+              className="
+                mb-6
+                font-helvetica
+                text-[11px]
+                font-semibold
+                uppercase
+                tracking-[0.2em]
+                text-neutral-500
+                sm:text-xs
+                md:text-sm
+              "
+            >
+              Hammoudi Barber Shop
+            </p>
+
+
+            {/* Heading */}
+            <h2
+              className="
+                max-w-[700px]
+                font-gt-super
+                text-[42px]
+                font-medium
+                leading-[0.98]
+                tracking-[-0.035em]
+                sm:text-[50px]
+                md:text-5xl
+                lg:text-6xl
+              "
+              style={{
+                textWrap: "balance",
+              }}
+            >
+              Experience the art of traditional barbering
+            </h2>
+
+
+            {/* Description */}
+            <p
+              className="
+                mt-8
+                max-w-[480px]
+                font-helvetica
+                text-[16px]
+                leading-[1.7]
+                text-neutral-600
+                sm:text-lg
+              "
+            >
+              Premium grooming, timeless style and a relaxing atmosphere.
+              Discover an experience designed around you.
+            </p>
+
+
+            {/* Button */}
+            <button
+              className="
+                group
+                relative
+                mt-9
+                overflow-hidden
+                border-2
+                border-black
+                bg-white
+                px-6
+                py-4
+                font-helvetica
+                text-sm
+                font-semibold
+                text-black
+              "
+            >
+              <span
+                className="
+                  absolute
+                  inset-0
+                  origin-left
+                  scale-x-0
+                  bg-black
+                  transition-transform
+                  duration-300
+                  ease-out
+                  group-hover:scale-x-100
+                "
+              />
+
+              <span
+                className="
+                  relative
+                  z-10
+                  whitespace-nowrap
+                  transition-colors
+                  duration-300
+                  group-hover:text-white
+                "
+              >
+                Book an appointment
+              </span>
+            </button>
+
+          </div>
+        </div>
+
       </div>
 
-    </div>
+    </section>
   );
 };
 
 export default ImgeCardLeft;
-
