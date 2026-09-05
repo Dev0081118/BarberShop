@@ -1,33 +1,37 @@
 import React from "react";
-
+import teamImage1 from "../assets/Team/emp1.png";
+import teamImage2 from "../assets/Team/emp2.png";
+import teamImage3 from "../assets/Team/emp3.png";
+import teamImage4 from "../assets/Team/emp4.png";
+import teamImage5 from "../assets/Team/emp5.png";
 const team = [
   {
     id: "01",
     name: "Joshua Lawrence",
     role: "Master Barber",
     image:
-      "src/assets/Team/emp1.png",
+      teamImage5,
   },
   {
     id: "02",
     name: "Marcus Miller",
     role: "Senior Barber",
     image:
-      "src/assets/Team/emp1.png",
+      teamImage1,
   },
   {
     id: "03",
     name: "Daniel Smith",
     role: "Barber & Stylist",
     image:
-      "src/assets/Team/emp2.png",
+      teamImage2,
   },
   {
     id: "04",
     name: "Ryan Wilson",
     role: "Senior Stylist",
     image:
-      "src/assets/Team/emp4.png",
+      teamImage4,
   },
 ];
 
