@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ImgeCardLeft from '../components/imgeCardLeft'
 import ImageCardRight from '../components/imageCardRight'
 const ScrollWindow = () => {

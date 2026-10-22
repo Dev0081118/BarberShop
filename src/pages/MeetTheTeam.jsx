@@ -1,7 +1,6 @@
-import React from "react";
+
 import teamImage1 from "../assets/Team/emp1.png";
 import teamImage2 from "../assets/Team/emp2.png";
-import teamImage3 from "../assets/Team/emp3.png";
 import teamImage4 from "../assets/Team/emp4.png";
 import teamImage5 from "../assets/Team/emp5.png";
 const team = [

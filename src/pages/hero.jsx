@@ -1,4 +1,4 @@
-// import React from 'react'
+//
 // import heroImage from '../assets/hero2.png'
 
 // const Hero = () => {
@@ -27,7 +27,7 @@
 // }
 
 // export default Hero
-import React from "react";
+
 import heroImage from "../assets/hero2.png";
 
 const Hero = () => {
