@@ -1,4 +1,4 @@
-// import React from 'react'
+//
 // import { Scissors } from 'lucide-react';
 // import { SoapDispenserDroplet } from 'lucide-react';
 // import fade from '../../public/cut.png'
@@ -78,7 +78,7 @@
 // }
 
 // export default WhoareWe
-import React from "react";
+
 import { Scissors, SoapDispenserDroplet } from "lucide-react";
 
 import fade from "../../public/cut.png";

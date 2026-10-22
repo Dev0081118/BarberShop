@@ -1,4 +1,4 @@
-import React from "react";
+
 import barberImage from "../../public/scrollwindow/joshua-lawrence-dU6eE_j2My8-unsplash.jpg";
 
 const packages = [

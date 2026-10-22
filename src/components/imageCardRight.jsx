@@ -1,4 +1,4 @@
-import React from 'react'
+
 import joshuaImage from "../../public/scrollwindow/trimmer.avif";
 import secondImage from "../../public/scrollwindow/setting.avif";
 const ImageCardRight = () => {

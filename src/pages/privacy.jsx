@@ -1,4 +1,4 @@
-import React from "react";
+
 const Privacy = () => {
   return (
     <main className="min-h-screen bg-[#faf9f5] text-black">
